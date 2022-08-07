@@ -1,0 +1,14 @@
+{
+  "name": "twitter stay",
+  "description": "nooo twitter dont redirect me!!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "tabs", "scripting"],
+  "host_permissions": [
+    "http://*.twitter.com/*",
+    "https://*.twitter.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
