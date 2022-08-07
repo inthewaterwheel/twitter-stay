@@ -1,4 +1,4 @@
-chrome.action.onClicked.addListener( function(tab) {
+/*chrome.action.onClicked.addListener( function(tab) {
 	chrome.storage.sync.get(['last_tweet'], function({last_tweet}) {
 		if (last_tweet != null & last_tweet != ""){
 			chrome.tabs.update(
@@ -9,7 +9,7 @@ chrome.action.onClicked.addListener( function(tab) {
 		}
 	})
 })
-
+*/
 function getUsername(){
 	console.log(document.getElementsByTagName("span"))
 	
